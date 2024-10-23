@@ -6,7 +6,7 @@ const {
   doc,
   setDoc,
 } = require("firebase/firestore");
-const { db } = require("../Config/firebase");
+const { db } = require("../config/firebase");
 
 const addEmployee = async (req, res) => {
   const { name, surname, age, idNumber, role } = req.body;
